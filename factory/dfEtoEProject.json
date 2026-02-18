@@ -1,0 +1,9 @@
+{
+	"name": "dfEtoEProject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "260c90ee-963c-4c2d-ab7c-74f77d800dcb",
+		"tenantId": "30e481d7-f3e2-42e8-8d65-c6777cafe0a7"
+	}
+}
