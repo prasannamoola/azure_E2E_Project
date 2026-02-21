@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfEtoEProject"
+		},
+		"ls_AzureDataLake_accountKey": {
+			"value": ""
+		},
+		"ls_azuresql_password": {
+			"value": ""
+		},
+		"ls_AzureDataLake_properties_typeProperties_url": {
+			"value": "https://storagazureprojecte2e.dfs.core.windows.net/"
+		},
+		"ls_azuresql_properties_typeProperties_server": {
+			"value": "e2eprojectserver.database.windows.net"
+		},
+		"ls_azuresql_properties_typeProperties_database": {
+			"value": "e2eDB"
+		},
+		"ls_azuresql_properties_typeProperties_userName": {
+			"value": "pmadmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
