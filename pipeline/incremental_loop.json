@@ -327,7 +327,9 @@
 						"activity": "LoopTables",
 						"dependencyConditions": [
 							"Skipped",
-							"Failed"
+							"Failed",
+							"Succeeded",
+							"Completed"
 						]
 					}
 				],
