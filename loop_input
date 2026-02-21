@@ -29,8 +29,8 @@
   },
   {
       "schema":"dbo",
-      "table":"DimTrack",
-      "cdc_col":"updated_at",
+      "table":"FactStream",
+      "cdc_col":"stream_timestamp",
       "from_date":""
 
   }
