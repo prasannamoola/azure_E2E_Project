@@ -341,14 +341,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"method": "POST",
-					"headers": {
-						"Content-Type": "application/json"
-					},
-					"url": "https://prod-16.westus3.logic.azure.com:443/workflows/986889a499d44e85ad67d1b224862829/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=aGya6s3UzJbfA1T_Q2SHupjslQ7i_KTCwic7wJJCmLk",
-					"body": {
-						"value": "{\n\n    \"pipeline_name\":\"@{pipeline().Pipeline}\",\n    \"pipeline_runId\":\"@{pipeline().RunId}\"\n\n}",
-						"type": "Expression"
-					}
+					"url": "https://prod-16.westus3.logic.azure.com:443/workflows/986889a499d44e85ad67d1b224862829/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=aGya6s3UzJbfA1T_Q2SHupjslQ7i_KTCwic7wJJCmLk"
 				}
 			}
 		],
